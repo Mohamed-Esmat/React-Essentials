@@ -1,11 +1,11 @@
 import { CORE_CONCEPTS } from '../../data';
 import CoreConcept from '../CoreConcept';
+import Section from '../Section';
 import './CoreConcepts.css';
 
 export default function CoreConcepts() {
   return (
-    <section id="core-concepts">
-      <h2>Core Concepts</h2>
+    <Section title="Core Concepts" id="core-concepts">
       <ul>
         {CORE_CONCEPTS.map((concept, index) => {
           return (
@@ -17,27 +17,7 @@ export default function CoreConcepts() {
             />
           );
         })}
-        {/* <CoreConcept
-        title="Components"
-        description="The core UI building block."
-        img={componentImg}
-      />
-      <CoreConcept
-        title="JSX"
-        description="A syntax extension for JavaScript."
-        img={jsxImg}
-      />
-      <CoreConcept
-        title="Props"
-        description="A way of passing data into components."
-        img={propsImg}
-      />
-      <CoreConcept
-        title="State"
-        description="A way of managing data in a component."
-        img={stateImg}
-      /> */}
       </ul>
-    </section>
+    </Section>
   );
 }
