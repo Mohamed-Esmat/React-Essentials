@@ -18,8 +18,8 @@ This is a demo web application built using React as part of the "React - The Com
 ## Installation & Setup
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/yourusername/react-essentials-demo.git
-   cd react-essentials-demo
+   git clone https://github.com/Mohamed-Esmat/React-Essentials.git
+   cd React-Essentials
    ```
 2. **Install dependencies**
    ```sh
@@ -29,7 +29,7 @@ This is a demo web application built using React as part of the "React - The Com
    ```sh
    npm run dev
    ```
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ## Project Structure
 ```
